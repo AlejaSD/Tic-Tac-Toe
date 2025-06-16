@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TicTacToe</title>
+        <!-- Seccion favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- -- -- -- -- -- -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/tictactoe.css" rel="stylesheet"/>
+        <script src="js/funciones.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <h1>TicTacToe</h1>
+            <div id="tablero">
+                <section id="gamer1" class="gamer col">
+                    <label>Jugador 1</label>
+                    <input type="text" name="jugador1" id="jugador1" />
+                    <button id="btnSaveGamer1">Guardar</button>
+                    <div id="rol_gamer1" class="rol"></div>
+                </section>
+                <section class="area_game col">
+                    <div class="zona" id="zona1"></div>
+                    <div class="zona" id="zona2"></div>
+                    <div class="zona" id="zona3"></div>
+                    <div class="zona" id="zona4"></div>
+                    <div class="zona" id="zona5"></div>
+                    <div class="zona" id="zona6"></div>
+                    <div class="zona" id="zona7"></div>
+                    <div class="zona" id="zona8"></div>
+                    <div class="zona" id="zona9"></div>
+                </section>
+                <section id="gamer2" class="gamer col">
+                    <label>Jugador 2</label>
+                    <input type="text" name="jugador2" id="jugador2" />
+                    <button id="btnSaveGamer2">Guardar</button>
+                    <div id="rol_gamer2" class="rol"></div>
+                </section>
+            </div>
+            <div id="timer">00:00:00</div>
+            <button id="iniciar">Iniciar</button>
+            <button id="reiniciar" class="oculto">Reiniciar</button>
+            <button id="resultado">Resultados</button>
+        </div>
+        <div id="tabla">
+            <div id="tabla_dinamica">
+                <h1>SCORE</h1> <div id="cerrar">x</div>
+                <div>
+                    <label for="sortByTime">Ordenar por tiempo</label>
+                    <input type="checkbox" id="sortByTime" />
+                </div>
+                <br>
+                <div id="data">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

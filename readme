@@ -1,0 +1,27 @@
+# 🎮 Tic Tac Toe
+
+Juego clásico de **Tres en Raya** para 2 jugadores con estadísticas y cronómetro.
+
+## ✨ Características
+
+- 🎯 Juego para 2 jugadores
+- ⏱️ Cronómetro integrado
+- 📊 Historial de partidas
+- 💾 Guardado automático
+
+## 🚀 Uso
+
+1. Abre `index.html` en tu navegador
+2. Ingresa nombres de jugadores
+3. ¡A jugar!
+
+## 🛠️ Tecnologías
+
+- HTML5, CSS3, JavaScript
+- LocalStorage para datos
+
+## 📖 REPOSITORIO
+
+**🔗 https://github.com/AlejaSD/Tic-Tac-Toe
+
+---
